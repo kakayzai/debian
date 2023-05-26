@@ -78,21 +78,24 @@ sudo apt install -y 2048-qt kpat quadrapassel supertux
 #sudo apt install -y vim
 
 # Install Restricted Extra
-sudo apt install -y rar unrar libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi
+sudo apt install rar unrar libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi -y
 
 # Install fonts
-#sudo apt install fonts-font-awesome fonts-powerline fonts-ubuntu fonts-liberation2 fonts-liberation fonts-terminus
-sudo apt install ttf-mscorefonts-installer
-sudo apt install fonts-crosextra-carlito fonts-crosextra-caladea
+#sudo apt install fonts-font-awesome fonts-powerline fonts-ubuntu fonts-liberation2 fonts-liberation fonts-terminus -y
+sudo apt install ttf-mscorefonts-installer -y
+sudo apt install fonts-crosextra-carlito fonts-crosextra-caladea -y
 
 # Install Theme & Icon
-sudo apt install arc-theme
-sudo apt install breeze-icon-theme
+sudo apt install arc-theme -y
+sudo apt install breeze-icon-theme -y
+
+# Install Flatpak
+sudo apt install flatpak -y
 
 
 # Install LightDM GTK Greeter Settings (lightdm,lightdm-gtk-greeter installs with xfce)
-sudo apt install slick-greeter
-sudo apt install -y lightdm-gtk-greeter-settings
+sudo apt install slick-greeter -y
+sudo apt install -y lightdm-gtk-greeter-settings -y
 sudo systemctl enable lightdm
 
 sudo apt autoremove
