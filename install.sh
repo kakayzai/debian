@@ -60,7 +60,11 @@ sudo apt install -y neofetch htop curl mugshot gufw wget
 sudo apt install -y geany vlc deluge gnome-multi-writer file-roller galculator gparted
 
 # Install Games 
-sudo apt install -y 2048-qt kpat quadrapassel supertux
+sudo apt install 2048-qt -y 
+sudo apt install kpat -y
+sudo apt install quadrapassel -y
+#sudo apt install supertux -y
+sudo apt install  frozen-bubble -y
 
 # EXA installation
 # replace ls command in .bashrc file with line below
