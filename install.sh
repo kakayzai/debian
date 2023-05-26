@@ -63,9 +63,11 @@ sudo apt install -y geany vlc deluge gnome-multi-writer file-roller galculator g
 sudo apt install 2048-qt -y 
 sudo apt install kpat -y
 sudo apt install quadrapassel -y
+sudo apt install  frozen-bubble -y
 #sudo apt install supertux -y
 #sudo apt install hedgewars -y
-sudo apt install  frozen-bubble -y
+#sudo apt-get install supertuxkart
+
 
 # EXA installation
 # replace ls command in .bashrc file with line below
