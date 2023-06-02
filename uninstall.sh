@@ -18,7 +18,8 @@ sudo apt purge mlterm* -y
 sudo apt-get purge debian-reference-it -y
 
 # Remove XFCE Components
-#sudo apt purge xfce4-clipman xfce4-notifyd xfce4-dict xfce4-power-manager xfce4-sensors-plugin -y
+sudo apt purge xfce4-clipman xfce4-notifyd xfce4-dict xfce4-power-manager xfce4-sensors-plugin -y
+
 
 # Remove Games
 
