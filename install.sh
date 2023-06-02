@@ -12,18 +12,29 @@ sudo ufw status
 #sudo apt install -y xorg xbacklight xbindkeys xvkbd xinput
 
 # Build-essential.
-sudo apt install build-essential dkms linux-headers-$(uname -r) -y
+#sudo apt install build-essential dkms linux-headers-$(uname -r) -y
 #sudo apt install -y build-essential 
 
 # Microcode for Intel/AMD 
 # sudo apt install -y amd64-microcode
 sudo apt install -y intel-microcode 
 
+# Install Neofetch/HTOP/Curl/Mugshot/Wget/Gufw
+sudo apt install -y neofetch htop curl mugshot wget gufw
+
 #XFCE packages
 #sudo apt install -y xfce4 xfce4-goodies
+#sudo apt install ristretto -y
+#sudo apt instlal xfce4-whiskermenu-plugin -y
+#sudo apt install catfish -y
+#sudo apt install mousepad -y
+#sudo apt install xfce4-screenshooter -y
+#sudo apt install xfce4-taskmanager -y
+
 
 # Browser Installation Firefox / Librewolf
 #sudo apt install -y firefox-esr 
+#sudo apt install chromium -y
 sudo apt update && sudo apt install -y wget gnupg lsb-release apt-transport-https ca-certificates
 distro=$(if echo " una vanessa focal jammy bullseye vera uma" | grep -q " $(lsb_release -sc) "; then echo $(lsb_release -sc); else echo focal; fi)
 wget -O- https://deb.librewolf.net/keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/librewolf.gpg
@@ -53,17 +64,17 @@ sudo apt-get install ffmpeg -y
 # Sound packages (pulseaudio installed prior)
 #sudo apt install -y alsa-utils volumeicon-alsa
 
-# Install Neofetch/HTOP/Curl/Mugshot
-sudo apt install -y neofetch htop curl mugshot gufw wget
-
 # Install Geany Editor / VLC Player / Deluge
-sudo apt install -y geany vlc deluge gnome-multi-writer file-roller galculator gparted
+sudo apt install -y atril geany vlc deluge gnome-multi-writer file-roller galculator gparted psensor
+#sudo apt install -y libreoffice
+#sudo apt install -y gimp
+#sudo apt install simplescreenrecorder
 
 # Install Games 
 sudo apt install 2048-qt -y 
 sudo apt install kpat -y
 sudo apt install quadrapassel -y
-sudo apt install  frozen-bubble -y
+sudo apt install frozen-bubble -y
 #sudo apt install supertux -y
 #sudo apt install hedgewars -y
 #sudo apt-get install supertuxkart -y
@@ -88,7 +99,7 @@ sudo apt install  frozen-bubble -y
 #sudo apt install -y vim
 
 # Install Restricted Extra
-sudo apt install rar unrar libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi -y
+#sudo apt install rar unrar libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi -y
 
 # Install fonts
 #sudo apt install fonts-font-awesome fonts-powerline fonts-ubuntu fonts-liberation2 fonts-liberation fonts-terminus -y
@@ -99,14 +110,15 @@ sudo apt install fonts-crosextra-carlito fonts-crosextra-caladea -y
 sudo apt install arc-theme -y
 sudo apt install breeze-icon-theme -y
 
+
 # Install Flatpak
 sudo apt install flatpak -y
 
 
 # Install LightDM GTK Greeter Settings (lightdm,lightdm-gtk-greeter installs with xfce)
 sudo apt install slick-greeter -y
-sudo apt install -y lightdm-gtk-greeter-settings -y
-sudo systemctl enable lightdm
+#sudo apt install -y lightdm-gtk-greeter-settings -y
+#sudo systemctl enable lightdm
 
 sudo apt autoremove
 sudo apt autoclean
