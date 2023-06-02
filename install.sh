@@ -68,7 +68,9 @@ sudo apt-get install ffmpeg -y
 sudo apt install -y atril geany vlc deluge gnome-multi-writer file-roller galculator gparted psensor
 #sudo apt install -y libreoffice
 #sudo apt install -y gimp
-#sudo apt install simplescreenrecorder
+#sudo apt install simplescreenrecorder -y
+#sudo apt install bleachbit -y
+#sudo apt install stacer -y
 
 # Install Games 
 sudo apt install 2048-qt -y 
