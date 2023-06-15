@@ -12,7 +12,7 @@ sudo ufw status
 #sudo apt install -y xorg xbacklight xbindkeys xvkbd xinput
 
 # Build-essential.
-#sudo apt install build-essential dkms linux-headers-$(uname -r) -y
+sudo apt install build-essential dkms linux-headers-$(uname -r) -y
 #sudo apt install -y build-essential 
 
 # Microcode for Intel/AMD 
@@ -24,12 +24,12 @@ sudo apt install -y neofetch htop curl mugshot wget gufw
 
 #XFCE packages
 #sudo apt install -y xfce4 xfce4-goodies
-#sudo apt install ristretto -y
-#sudo apt instlal xfce4-whiskermenu-plugin -y
-#sudo apt install catfish -y
-#sudo apt install mousepad -y
-#sudo apt install xfce4-screenshooter -y
-#sudo apt install xfce4-taskmanager -y
+sudo apt install ristretto -y
+sudo apt install catfish -y
+sudo apt install mousepad -y
+sudo apt install xfce4-screenshooter -y
+sudo apt install xfce4-taskmanager -y
+sudo apt instlal xfce4-whiskermenu-plugin -y
 
 
 # Browser Installation Firefox / Librewolf
@@ -51,6 +51,8 @@ sudo apt install librewolf -y
 
 
 # Install Youtube-Dlp & FFMPEG
+sudo apt install pip -y
+sudo apt install python3-mutagen -y
 sudo wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O /usr/local/bin/yt-dlp 
 sudo chmod a+rx /usr/local/bin/yt-dlp # Make executable
 sudo apt-get install ffmpeg -y
@@ -65,19 +67,20 @@ sudo apt-get install ffmpeg -y
 #sudo apt install -y alsa-utils volumeicon-alsa
 
 # Install Geany Editor / VLC Player / Deluge
-sudo apt install -y atril geany vlc deluge gnome-multi-writer file-roller galculator gparted psensor
+sudo apt install -y atril geany vlc deluge file-roller galculator gparted psensor
 #sudo apt install -y libreoffice
 #sudo apt install -y gimp
 #sudo apt install simplescreenrecorder -y
 #sudo apt install bleachbit -y
 #sudo apt install stacer -y
+#sudo apt install gnome-multi-writer -y
 
 # Install Games 
 sudo apt install 2048-qt -y 
 sudo apt install kpat -y
 sudo apt install quadrapassel -y
-sudo apt install frozen-bubble -y
-#sudo apt install supertux -y
+sudo apt install supertux -y
+#sudo apt install frozen-bubble -y
 #sudo apt install hedgewars -y
 #sudo apt-get install supertuxkart -y
 #sudo apt-get install froggato -y
@@ -101,7 +104,7 @@ sudo apt install frozen-bubble -y
 #sudo apt install -y vim
 
 # Install Restricted Extra
-#sudo apt install rar unrar libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi -y
+sudo apt install rar unrar libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi -y
 
 # Install fonts
 #sudo apt install fonts-font-awesome fonts-powerline fonts-ubuntu fonts-liberation2 fonts-liberation fonts-terminus -y
@@ -115,6 +118,9 @@ sudo apt install breeze-icon-theme -y
 
 # Install Flatpak
 sudo apt install flatpak -y
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+#flatpak install flathub com.github.tchx84.Flatseal
+#flatpak install flathub com.usebottles.bottles
 
 
 # Install LightDM GTK Greeter Settings (lightdm,lightdm-gtk-greeter installs with xfce)
