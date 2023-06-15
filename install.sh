@@ -81,6 +81,7 @@ sudo apt install -y atril geany vlc deluge file-roller galculator gparted psenso
 #sudo apt install clamtk -y
 
 
+
 # Install Games 
 sudo apt install 2048-qt -y 
 sudo apt install kpat -y
