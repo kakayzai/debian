@@ -70,10 +70,13 @@ sudo apt-get install ffmpeg -y
 sudo apt install -y atril geany vlc deluge file-roller galculator gparted psensor
 #sudo apt install -y libreoffice
 #sudo apt install -y gimp
+#sudo apt install -y krita
 #sudo apt install simplescreenrecorder -y
 #sudo apt install bleachbit -y
 #sudo apt install stacer -y
 #sudo apt install gnome-multi-writer -y
+#sudo apt install gthumb -y      # image viewer
+#sudo apt install okular -y      # Okular is a universal document viewer (PDF, Postscript, DjVu, CHM, XPS, ePub)
 
 # Install Games 
 sudo apt install 2048-qt -y 
