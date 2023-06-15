@@ -77,6 +77,9 @@ sudo apt install -y atril geany vlc deluge file-roller galculator gparted psenso
 #sudo apt install gnome-multi-writer -y
 #sudo apt install gthumb -y      # image viewer
 #sudo apt install okular -y      # Okular is a universal document viewer (PDF, Postscript, DjVu, CHM, XPS, ePub)
+#sudo apt install rhythmbox -y
+#sudo apt install clamtk -y
+
 
 # Install Games 
 sudo apt install 2048-qt -y 
