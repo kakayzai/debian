@@ -7,7 +7,8 @@ sudo apt purge libreoffice* -y
 
 # Remove Softwares
 sudo apt purge xterm xsane xarchiver xfburn rhythmbox goldendict exfalso parole quodlibet -y
-sudo apt gedit xed gimp -y
+sudo apt purge gedit xed gimp -y
+#sudo apt purge imagemagick-* -y
 
 # Remove System Utilities
 sudo apt purge kasumi fcitx fcitx5 fcitx* fcitx5* xiterm+thai uim mozc-utils-gui mozc* -y
