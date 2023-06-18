@@ -87,7 +87,7 @@ sudo apt install 2048-qt -y
 sudo apt install kpat -y
 sudo apt install quadrapassel -y
 sudo apt install supertux -y
-#sudo apt install frozen-bubble -y
+#sudo apt install enigma -y
 #sudo apt install hedgewars -y
 #sudo apt-get install supertuxkart -y
 #sudo apt-get install froggato -y
