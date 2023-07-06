@@ -92,7 +92,9 @@ sudo apt install supertux -y
 #sudo apt install hedgewars -y
 #sudo apt-get install supertuxkart -y
 #sudo apt-get install froggato -y
-
+#sudo apt-get install extremetuxracer
+#sudo apt install supertuxkart
+#sudo apt install frozen-bubble
 
 
 
