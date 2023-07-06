@@ -95,6 +95,7 @@ sudo apt install supertux -y
 #sudo apt-get install extremetuxracer
 #sudo apt install supertuxkart
 #sudo apt install frozen-bubble
+#sudo apt install openclonk
 
 
 
