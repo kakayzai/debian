@@ -3,11 +3,18 @@
 # Uninstall Debian Bloat
 
 # Remove Libre Office
-sudo apt purge libreoffice* -y
+#sudo apt purge libreoffice* -y
 
 # Remove Softwares
-sudo apt purge xterm xsane xarchiver xfburn rhythmbox goldendict exfalso parole quodlibet -y
-sudo apt purge gedit xed gimp -y
+sudo apt purge xterm xsane xarchiver xfburn rhythmbox orage goldendict exfalso parole quodlibet -y
+sudo apt purge gedit xed -y
+sudo apt purge conky-all conky-manager conky-toggle-mx conky conky-std mx-conky-data -y
+sudo apt purge lbreakout2 peg-e swell-foop -y
+sudo apt purge mx-viewer transmission-qt thunderbird -y
+sudo apt purge asunder gmtp strawberry xfburn webcamoid -y
+sudo apt purge mc mcedit -y 
+sudo apt purge baobab advert-block-antix -y
+
 #sudo apt purge imagemagick-* -y
 
 # Remove System Utilities
