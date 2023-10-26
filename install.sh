@@ -32,13 +32,16 @@ sudo apt install xfce4-taskmanager -y
 sudo apt instlal xfce4-whiskermenu-plugin -y
 
 
-# Browser Installation Firefox / Librewolf
-#sudo apt install -y firefox-esr 
+# Browser Installation
+#sudo apt install firefox -y
+#sudo apt install firefox-esr -y
 #sudo apt install chromium -y
-sudo apt update && sudo apt install -y wget gnupg lsb-release apt-transport-https ca-certificates
-distro=$(if echo " una vanessa focal jammy bullseye vera uma" | grep -q " $(lsb_release -sc) "; then echo $(lsb_release -sc); else echo focal; fi)
-wget -O- https://deb.librewolf.net/keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/librewolf.gpg
-sudo tee /etc/apt/sources.list.d/librewolf.sources << EOF > /dev/null
+
+#Install Librewolf
+#sudo apt update && sudo apt install -y wget gnupg lsb-release apt-transport-https ca-certificates
+#distro=$(if echo " una vanessa focal jammy bullseye vera uma" | grep -q " $(lsb_release -sc) "; then echo $(lsb_release -sc); else echo focal; fi)
+#wget -O- https://deb.librewolf.net/keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/librewolf.gpg
+#sudo tee /etc/apt/sources.list.d/librewolf.sources << EOF > /dev/null
 Types: deb
 URIs: https://deb.librewolf.net
 Suites: $distro
@@ -46,8 +49,21 @@ Components: main
 Architectures: amd64
 Signed-By: /usr/share/keyrings/librewolf.gpg
 EOF
-sudo apt update
-sudo apt install librewolf -y
+#sudo apt update
+#sudo apt install librewolf -y
+
+# Install Thorium Browser
+#wget https://dl.thorium.rocks/debian/dists/stable/thorium.list
+#sudo mv thorium.list /etc/apt/sources.list.d/
+#sudo apt update
+#sudo apt install thorium-browser
+
+# Install Brave Browser
+#sudo apt install curl
+#sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+#echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+#sudo apt update
+#sudo apt install brave-browser
 
 
 # Install Youtube-Dlp & FFMPEG
@@ -125,6 +141,11 @@ sudo apt install fonts-crosextra-carlito fonts-crosextra-caladea -y
 # Install Theme & Icon
 sudo apt install arc-theme -y
 sudo apt install breeze-icon-theme -y
+
+# Install Wine
+#sudo apt install software-properties-common apt-transport-https curl -y
+#sudo dpkg --add-architecture i386 -y
+#sudo apt install wine64 wine32 -y
 
 
 # Install Flatpak
