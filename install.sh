@@ -12,12 +12,12 @@ sudo ufw status
 #sudo apt install -y xorg xbacklight xbindkeys xvkbd xinput
 
 # Build-essential.
-sudo apt install build-essential dkms linux-headers-$(uname -r) -y
+#sudo apt install build-essential dkms linux-headers-$(uname -r) -y
 #sudo apt install -y build-essential 
 
 # Microcode for Intel/AMD 
 # sudo apt install -y amd64-microcode
-sudo apt install -y intel-microcode 
+#sudo apt install -y intel-microcode 
 
 # Install Neofetch/HTOP/Curl/Mugshot/Wget/Gufw
 sudo apt install -y neofetch htop curl mugshot wget gufw
@@ -29,7 +29,7 @@ sudo apt install catfish -y
 sudo apt install mousepad -y
 sudo apt install xfce4-screenshooter -y
 sudo apt install xfce4-taskmanager -y
-sudo apt instlal xfce4-whiskermenu-plugin -y
+sudo apt install xfce4-whiskermenu-plugin -y
 
 
 # Browser Installation
@@ -52,11 +52,6 @@ EOF
 #sudo apt update
 #sudo apt install librewolf -y
 
-# Install Thorium Browser
-#wget https://dl.thorium.rocks/debian/dists/stable/thorium.list
-#sudo mv thorium.list /etc/apt/sources.list.d/
-#sudo apt update
-#sudo apt install thorium-browser
 
 # Install Brave Browser
 #sudo apt install curl
@@ -83,7 +78,8 @@ sudo apt-get install ffmpeg -y
 #sudo apt install -y alsa-utils volumeicon-alsa
 
 # Install Geany Editor / VLC Player / Deluge
-sudo apt install -y atril geany vlc deluge file-roller galculator gparted psensor
+sudo apt install atril geany vlc deluge file-roller galculator gparted psensor -y
+sudo apt-get install geany-plugins -y
 #sudo apt install -y libreoffice
 #sudo apt install -y gimp
 #sudo apt install -y krita
@@ -141,6 +137,13 @@ sudo apt install fonts-crosextra-carlito fonts-crosextra-caladea -y
 # Install Theme & Icon
 sudo apt install arc-theme -y
 sudo apt install breeze-icon-theme -y
+
+# Install Hblock adblocker
+curl -o /tmp/hblock 'https://raw.githubusercontent.com/hectorm/hblock/v3.4.2/hblock' \
+  && echo 'a7d748b69db9f94932333a5b5f0c986dd60a39fdf4fe675ad58364fea59c74b4  /tmp/hblock' | shasum -c \
+  && sudo mv /tmp/hblock /usr/local/bin/hblock \
+  && sudo chown 0:0 /usr/local/bin/hblock \
+  && sudo chmod 755 /usr/local/bin/hblock
 
 # Install Wine
 #sudo apt install software-properties-common apt-transport-https curl -y
