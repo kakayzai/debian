@@ -41,11 +41,11 @@
 0.0.0.0 static.hotjar.com
 
 # Mouse Flow
-0.0.0.0 mouseflow.com/
+0.0.0.0 mouseflow.com
 0.0.0.0 a.mouseflow.com
 
 # FreshMarketer
-0.0.0.0 freshmarketer.com/
+0.0.0.0 freshmarketer.com
 
 # Luckyorange
 0.0.0.0 luckyorange.com
@@ -136,7 +136,7 @@
 0.0.0.0 sdkconfig.ad.xiaomi.com
 0.0.0.0 sdkconfig.ad.intl.xiaomi.com
 0.0.0.0 globalapi.ad.xiaomi.com
-0.0.0.0 0.0.0.0 cdn.ad.xiaomi.com
+0.0.0.0 cdn.ad.xiaomi.com
 0.0.0.0 tracking.miui.com
 0.0.0.0 tracking.intl.miui.com
 0.0.0.0 tracking.india.miui.com
