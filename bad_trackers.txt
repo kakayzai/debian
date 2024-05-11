@@ -179,3 +179,12 @@
 0.0.0.0 metrics.mzstatic.com
 
 # OTHER TRACKERS
+0.0.0.0 dwggckttorq.com
+0.0.0.0 hborq.com
+0.0.0.0 imgur.com
+0.0.0.0 imgur.map.fastly.net
+0.0.0.0 pjagilteei.com
+0.0.0.0 push-services.com
+0.0.0.0 qynysggri.com
+0.0.0.0 xrpikxtnmvcm.com
+0.0.0.0 ygvqughn.com
