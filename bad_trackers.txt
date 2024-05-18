@@ -78,8 +78,6 @@
 # Twitter
 0.0.0.0 ads-api.twitter.com
 0.0.0.0 advertising.twitter.com
-0.0.0.0 ads-api.twitter.com
-0.0.0.0 advertising.twitter.com
 
 # LinkedIn
 0.0.0.0 ads.linkedin.com
@@ -96,7 +94,7 @@
 # Reddit
 0.0.0.0 ads.reddit.com
 0.0.0.0 d.reddit.com
-0.0.0.0 rereddit.com
+0.0.0.0 redreddit.com
 0.0.0.0 events.redditmedia.com
 
 # Youtube
@@ -108,7 +106,6 @@
 0.0.0.0 analytics-sg.tiktok.com
 0.0.0.0 ads-sg.tiktok.com
 0.0.0.0 e35058.a.akamaiedge.net
-0.0.0.0 ads-sg.tiktok.com
 
 # ===== MIX =====
 # Yahoo
@@ -121,9 +118,6 @@
 0.0.0.0 appmetrica.yandex.com
 0.0.0.0 yandexadexchange.net
 0.0.0.0 analytics.mobile.yandex.net
-
-# Pinterest
-0.0.0.0 widgets.pinterest.com
 
 # ===== OEN =====
 #   Xiaomi
