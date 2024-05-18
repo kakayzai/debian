@@ -7,7 +7,7 @@
 # Media.net 
 0.0.0.0 static.media.net 
 0.0.0.0 media.net 
-0.0.0.0 adservetx.media.net
+0.0.0.0 adservice.media.net
 
 # Amazon Ads
 0.0.0.0 adtago.s3.amazonaws.com
