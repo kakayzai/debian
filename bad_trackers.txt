@@ -32,7 +32,6 @@
 0.0.0.0 mediavisor.doubleclick.net
 0.0.0.0 googleads.g.doubleclick.net
 
-
 # ===== ANALYTICS =====
 # Google Analytics
 0.0.0.0 google-analytics.com
