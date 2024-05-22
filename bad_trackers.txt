@@ -30,6 +30,9 @@
 0.0.0.0 static.doubleclick.net
 0.0.0.0 m.doubleclick.net
 0.0.0.0 mediavisor.doubleclick.net
+0.0.0.0 doubleclick.net
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 static.doubleclick.net
 
 # ===== ANALYTICS =====
 # Google Analytics
@@ -188,3 +191,4 @@
 0.0.0.0 notjdyincro.com
 0.0.0.0 sharethis.com
 0.0.0.0 wcnhhqqueu.com
+0.0.0.0 mxijjrnhmhm.com
