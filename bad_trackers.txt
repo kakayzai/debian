@@ -1,192 +1,192 @@
 # ===== ADS ===== 
 # Google Ads 
-0.0.0.0 pagead2.googlesyndication.com 
-0.0.0.0 adservice.google.com 
-0.0.0.0 pagead2.googleadservices.com
+|| pagead2.googlesyndication.com^ 
+|| adservice.google.com^ 
+|| pagead2.googleadservices.com^
 
-# Media.net 
-0.0.0.0 static.media.net 
-0.0.0.0 media.net 
-0.0.0.0 adservice.media.net
+# Media.net^ 
+|| static.media.net^ 
+|| media.net^ 
+|| adservice.media.net^
 
 # Amazon Ads
-0.0.0.0 adtago.s3.amazonaws.com
-0.0.0.0 analyticsengine.s3.amazonaws.com
-0.0.0.0 advice-ads.s3.amazonaws.com
-0.0.0.0 affiliationjs.s3.amazonaws.com
-0.0.0.0 advertising-api-eu.amazon.com
-0.0.0.0 amazonaax.com
-0.0.0.0 amazonclix.com
-0.0.0.0 assoc-amazon.com
+|| adtago.s3.amazonaws.com^
+|| analyticsengine.s3.amazonaws.com^
+|| advice-ads.s3.amazonaws.com^
+|| affiliationjs.s3.amazonaws.com^
+|| advertising-api-eu.amazon.com^
+|| amazonaax.com^
+|| amazonclix.com^
+|| assoc-amazon.com^
 
 # Fast Click
-0.0.0.0 fastclick.com
-0.0.0.0 global.map.fastly.net
-0.0.0.0 prod.pinterest.global.map.fastly.net
+|| fastclick.com^
+|| global.map.fastly.net^
+|| prod.pinterest.global.map.fastly.net^
 
-# Doubleclick.net
-0.0.0.0 doubleclick.net
-0.0.0.0 ad.doubleclick.net
-0.0.0.0 static.doubleclick.net
-0.0.0.0 m.doubleclick.net
-0.0.0.0 mediavisor.doubleclick.net
-0.0.0.0 googleads.g.doubleclick.net
+# Doubleclick.net^
+|| doubleclick.net^
+|| ad.doubleclick.net^
+|| static.doubleclick.net^
+|| m.doubleclick.net^
+|| mediavisor.doubleclick.net^
+|| googleads.g.doubleclick.net^
 
 # ===== ANALYTICS =====
 # Google Analytics
-0.0.0.0 google-analytics.com
-0.0.0.0 ssl.google-analytics.com
+|| google-analytics.com^
+|| ssl.google-analytics.com^
 
 # Hotjar
-0.0.0.0 hotjar.com
-0.0.0.0 static.hotjar.com
+|| hotjar.com^
+|| static.hotjar.com^
 
 # Mouse Flow
-0.0.0.0 mouseflow.com
-0.0.0.0 a.mouseflow.com
+|| mouseflow.com^
+|| a.mouseflow.com^
 
 # FreshMarketer
-0.0.0.0 freshmarketer.com
+|| freshmarketer.com^
 
 # Luckyorange
-0.0.0.0 luckyorange.com
-0.0.0.0 cdn.luckyorange.com
-0.0.0.0 w1.luckyorange.com
-0.0.0.0 upload.luckyorange.net
-0.0.0.0 cs.luckyorange.net
-0.0.0.0 settings.luckyorange.net
+|| luckyorange.com^
+|| cdn.luckyorange.com^
+|| w1.luckyorange.com^
+|| upload.luckyorange.net^
+|| cs.luckyorange.net^
+|| settings.luckyorange.net^
 
 # Stats WP Plugin
-0.0.0.0 stats.wp.com
+|| stats.wp.com^
 
 # ===== ERROR TRACKERS =====
 # Bugsnag
-0.0.0.0 notify.bugsnag.com
-0.0.0.0 sessions.bugsnag.com
-0.0.0.0 api.bugsnag.com
-0.0.0.0 app.bugsnag.com
+|| notify.bugsnag.com^
+|| sessions.bugsnag.com^
+|| api.bugsnag.com^
+|| app.bugsnag.com^
 
 # Sentry
-0.0.0.0 browser.sentry-cdn.com
-0.0.0.0 app.getsentry.com
+|| browser.sentry-cdn.com^
+|| app.getsentry.com^
 
 # ===== SOCIAL TRACKERS =====
 # Facebook
-0.0.0.0 pixel.facebook.com
-0.0.0.0 ads.facebook.com
-0.0.0.0 an.facebook.com
+|| pixel.facebook.com^
+|| ads.facebook.com^
+|| an.facebook.com^
 
 # Twitter
-0.0.0.0 ads-api.twitter.com
-0.0.0.0 advertising.twitter.com
+|| ads-api.twitter.com^
+|| advertising.twitter.com^
 
 # LinkedIn
-0.0.0.0 ads.linkedin.com
-0.0.0.0 analytics.pointdrive.linkedin.com
+|| ads.linkedin.com^
+|| analytics.pointdrive.linkedin.com^
 
 # Pinterest
-0.0.0.0 ads.pinterest.com
-0.0.0.0 log.pinterest.com
-0.0.0.0 ads-dev.pinterest.com
-0.0.0.0 analytics.pinterest.com
-0.0.0.0 trk.pinterest.com
-0.0.0.0 widgets.pinterest.com
+|| ads.pinterest.com^
+|| log.pinterest.com^
+|| ads-dev.pinterest.com^
+|| analytics.pinterest.com^
+|| trk.pinterest.com^
+|| widgets.pinterest.com^
 
 # Reddit
-0.0.0.0 ads.reddit.com
-0.0.0.0 d.reddit.com
-0.0.0.0 redreddit.com
-0.0.0.0 events.redditmedia.com
+|| ads.reddit.com^
+|| d.reddit.com^
+|| redreddit.com^
+|| events.redditmedia.com^
 
 # Youtube
-0.0.0.0 ads.youtube.com
+|| ads.youtube.com^
 
 # Tiktok
-0.0.0.0 analytics.tiktok.com
-0.0.0.0 ads.tiktok.com
-0.0.0.0 analytics-sg.tiktok.com
-0.0.0.0 ads-sg.tiktok.com
-0.0.0.0 e35058.a.akamaiedge.net
+|| analytics.tiktok.com^
+|| ads.tiktok.com^
+|| analytics-sg.tiktok.com^
+|| ads-sg.tiktok.com^
+|| e35058.a.akamaiedge.net^
 
 # ===== MIX =====
 # Yahoo
-0.0.0.0 ads.yahoo.com
-0.0.0.0 global.adserver.yahoo.com
-0.0.0.0 analytics.yahoo.com
-0.0.0.0 ads.yap.yahoo.com
+|| ads.yahoo.com^
+|| global.adserver.yahoo.com^
+|| analytics.yahoo.com^
+|| ads.yap.yahoo.com^
 
 # Yandex
-0.0.0.0 appmetrica.yandex.com
-0.0.0.0 yandexadexchange.net
-0.0.0.0 analytics.mobile.yandex.net
+|| appmetrica.yandex.com^
+|| yandexadexchange.net^
+|| analytics.mobile.yandex.net^
 
 # ===== OEN =====
 #   Xiaomi
-0.0.0.0 api.ad.xiaomi.com
-0.0.0.0 app.chat.xiaomi.net
-0.0.0.0 data.mistat.xiaomi.com
-0.0.0.0 data.mistat.intl.xiaomi.com
-0.0.0.0 data.mistat.india.xiaomi.com
-0.0.0.0 data.mistat.rus.xiaomi.com
-0.0.0.0 sdkconfig.ad.xiaomi.com
-0.0.0.0 sdkconfig.ad.intl.xiaomi.com
-0.0.0.0 globalapi.ad.xiaomi.com
-0.0.0.0 cdn.ad.xiaomi.com
-0.0.0.0 tracking.miui.com
-0.0.0.0 tracking.intl.miui.com
-0.0.0.0 tracking.india.miui.com
-0.0.0.0 tracking.rus.miui.com
+|| api.ad.xiaomi.com^
+|| app.chat.xiaomi.net^
+|| data.mistat.xiaomi.com^
+|| data.mistat.intl.xiaomi.com^
+|| data.mistat.india.xiaomi.com^
+|| data.mistat.rus.xiaomi.com^
+|| sdkconfig.ad.xiaomi.com^
+|| sdkconfig.ad.intl.xiaomi.com^
+|| globalapi.ad.xiaomi.com^
+|| cdn.ad.xiaomi.com^
+|| tracking.miui.com^
+|| tracking.intl.miui.com^
+|| tracking.india.miui.com^
+|| tracking.rus.miui.com^
 
 # Huawei
-0.0.0.0 metrics.data.hicloud.com
-0.0.0.0 metrics1.data.hicloud.com
-0.0.0.0 metrics2.data.hicloud.com
-0.0.0.0 metrics3.data.hicloud.com
-0.0.0.0 metrics4.data.hicloud.com
-0.0.0.0 metrics5.data.hicloud.com 
-0.0.0.0 logservice.hicloud.com
-0.0.0.0 logservice1.hicloud.com
-0.0.0.0 metrics-dra.dt.hicloud.com
-0.0.0.0 logbak.hicloud.com
+|| metrics.data.hicloud.com^
+|| metrics1.data.hicloud.com^
+|| metrics2.data.hicloud.com^
+|| metrics3.data.hicloud.com^
+|| metrics4.data.hicloud.com^
+|| metrics5.data.hicloud.com^ 
+|| logservice.hicloud.com^
+|| logservice1.hicloud.com^
+|| metrics-dra.dt.hicloud.com^
+|| logbak.hicloud.com^
 
 # OnePlus
-0.0.0.0 click.oneplus.cn
-0.0.0.0 click.oneplus.com
-0.0.0.0 open.oneplus.net
+|| click.oneplus.cn^
+|| click.oneplus.com^
+|| open.oneplus.net^
 
 # Samsung
-0.0.0.0 ad.samsungadhub.com
-0.0.0.0 samsungadhub.com
-0.0.0.0 samsungads.com
-0.0.0.0 smetrics.samsung.com
-0.0.0.0 nmetrics.samsung.com
-0.0.0.0 samsung-com.112.2o7.net
-0.0.0.0 business.samsungusa.com
-0.0.0.0 analytics.samsungknox.com
-0.0.0.0 analytics-api.samsunghealthcn.com
-0.0.0.0 config.samsungads.com
+|| ad.samsungadhub.com^
+|| samsungadhub.com^
+|| samsungads.com^
+|| smetrics.samsung.com^
+|| nmetrics.samsung.com^
+|| samsung-com.112.2o7.net^
+|| business.samsungusa.com^
+|| analytics.samsungknox.com^
+|| analytics-api.samsunghealthcn.com^
+|| config.samsungads.com^
 
 # Apple 
-0.0.0.0 metrics.apple.com 
-0.0.0.0 securemetrics.apple.com 
-0.0.0.0 supportmetrics.apple.com 
-0.0.0.0 metrics.icloud.com 
-0.0.0.0 metrics.mzstatic.com
+|| metrics.apple.com^ 
+|| securemetrics.apple.com^ 
+|| supportmetrics.apple.com^ 
+|| metrics.icloud.com^ 
+|| metrics.mzstatic.com^
 
 # OTHER TRACKERS
-0.0.0.0 dwggckttorq.com
-0.0.0.0 hborq.com
-0.0.0.0 imgur.com
-0.0.0.0 imgur.map.fastly.net
-0.0.0.0 pjagilteei.com
-0.0.0.0 push-services.com
-0.0.0.0 qynysggri.com
-0.0.0.0 xrpikxtnmvcm.com
-0.0.0.0 ygvqughn.com
-0.0.0.0 gwggiroo.com
-0.0.0.0 mkenativji.com
-0.0.0.0 mpqgoircwb.com
-0.0.0.0 notjdyincro.com
-0.0.0.0 sharethis.com
-0.0.0.0 wcnhhqqueu.com
-0.0.0.0 mxijjrnhmhm.com
+|| dwggckttorq.com^
+|| hborq.com^
+|| imgur.com^
+|| imgur.map.fastly.net^
+|| pjagilteei.com^
+|| push-services.com^
+|| qynysggri.com^
+|| xrpikxtnmvcm.com^
+|| ygvqughn.com^
+|| gwggiroo.com^
+|| mkenativji.com^
+|| mpqgoircwb.com^
+|| notjdyincro.com^
+|| sharethis.com^
+|| wcnhhqqueu.com^
+|| mxijjrnhmhm.com^
