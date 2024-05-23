@@ -31,7 +31,6 @@
 ||m.doubleclick.net^
 ||mediavisor.doubleclick.net^
 ||googleads.g.doubleclick.net^
-* static.doubleclick.net * block
 
 # ===== ANALYTICS =====
 # Google Analytics
