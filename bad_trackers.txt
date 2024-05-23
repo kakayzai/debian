@@ -1,192 +1,192 @@
 # ===== ADS ===== 
 # Google Ads 
-|| pagead2.googlesyndication.com^ 
-|| adservice.google.com^ 
-|| pagead2.googleadservices.com^
+||pagead2.googlesyndication.com^ 
+||adservice.google.com^ 
+||pagead2.googleadservices.com^
 
 # Media.net^ 
-|| static.media.net^ 
-|| media.net^ 
-|| adservice.media.net^
+||static.media.net^ 
+||media.net^ 
+||adservice.media.net^
 
 # Amazon Ads
-|| adtago.s3.amazonaws.com^
-|| analyticsengine.s3.amazonaws.com^
-|| advice-ads.s3.amazonaws.com^
-|| affiliationjs.s3.amazonaws.com^
-|| advertising-api-eu.amazon.com^
-|| amazonaax.com^
-|| amazonclix.com^
-|| assoc-amazon.com^
+||adtago.s3.amazonaws.com^
+||analyticsengine.s3.amazonaws.com^
+||advice-ads.s3.amazonaws.com^
+||affiliationjs.s3.amazonaws.com^
+||advertising-api-eu.amazon.com^
+||amazonaax.com^
+||amazonclix.com^
+||assoc-amazon.com^
 
 # Fast Click
-|| fastclick.com^
-|| global.map.fastly.net^
-|| prod.pinterest.global.map.fastly.net^
+||fastclick.com^
+||global.map.fastly.net^
+||prod.pinterest.global.map.fastly.net^
 
 # Doubleclick.net^
-|| doubleclick.net^
-|| ad.doubleclick.net^
-|| static.doubleclick.net^
-|| m.doubleclick.net^
-|| mediavisor.doubleclick.net^
-|| googleads.g.doubleclick.net^
+||doubleclick.net^
+||ad.doubleclick.net^
+||static.doubleclick.net^
+||m.doubleclick.net^
+||mediavisor.doubleclick.net^
+||googleads.g.doubleclick.net^
 
 # ===== ANALYTICS =====
 # Google Analytics
-|| google-analytics.com^
-|| ssl.google-analytics.com^
+||google-analytics.com^
+||ssl.google-analytics.com^
 
 # Hotjar
-|| hotjar.com^
-|| static.hotjar.com^
+||hotjar.com^
+||static.hotjar.com^
 
 # Mouse Flow
-|| mouseflow.com^
-|| a.mouseflow.com^
+||mouseflow.com^
+||a.mouseflow.com^
 
 # FreshMarketer
-|| freshmarketer.com^
+||freshmarketer.com^
 
 # Luckyorange
-|| luckyorange.com^
-|| cdn.luckyorange.com^
-|| w1.luckyorange.com^
-|| upload.luckyorange.net^
-|| cs.luckyorange.net^
-|| settings.luckyorange.net^
+||luckyorange.com^
+||cdn.luckyorange.com^
+||w1.luckyorange.com^
+||upload.luckyorange.net^
+||cs.luckyorange.net^
+||settings.luckyorange.net^
 
 # Stats WP Plugin
-|| stats.wp.com^
+||stats.wp.com^
 
 # ===== ERROR TRACKERS =====
 # Bugsnag
-|| notify.bugsnag.com^
-|| sessions.bugsnag.com^
-|| api.bugsnag.com^
-|| app.bugsnag.com^
+||notify.bugsnag.com^
+||sessions.bugsnag.com^
+||api.bugsnag.com^
+||app.bugsnag.com^
 
 # Sentry
-|| browser.sentry-cdn.com^
-|| app.getsentry.com^
+||browser.sentry-cdn.com^
+||app.getsentry.com^
 
 # ===== SOCIAL TRACKERS =====
 # Facebook
-|| pixel.facebook.com^
-|| ads.facebook.com^
-|| an.facebook.com^
+||pixel.facebook.com^
+||ads.facebook.com^
+||an.facebook.com^
 
 # Twitter
-|| ads-api.twitter.com^
-|| advertising.twitter.com^
+||ads-api.twitter.com^
+||advertising.twitter.com^
 
 # LinkedIn
-|| ads.linkedin.com^
-|| analytics.pointdrive.linkedin.com^
+||ads.linkedin.com^
+||analytics.pointdrive.linkedin.com^
 
 # Pinterest
-|| ads.pinterest.com^
-|| log.pinterest.com^
-|| ads-dev.pinterest.com^
-|| analytics.pinterest.com^
-|| trk.pinterest.com^
-|| widgets.pinterest.com^
+||ads.pinterest.com^
+||log.pinterest.com^
+||ads-dev.pinterest.com^
+||analytics.pinterest.com^
+||trk.pinterest.com^
+||widgets.pinterest.com^
 
 # Reddit
-|| ads.reddit.com^
-|| d.reddit.com^
-|| redreddit.com^
-|| events.redditmedia.com^
+||ads.reddit.com^
+||d.reddit.com^
+||redreddit.com^
+||events.redditmedia.com^
 
 # Youtube
-|| ads.youtube.com^
+||ads.youtube.com^
 
 # Tiktok
-|| analytics.tiktok.com^
-|| ads.tiktok.com^
-|| analytics-sg.tiktok.com^
-|| ads-sg.tiktok.com^
-|| e35058.a.akamaiedge.net^
+||analytics.tiktok.com^
+||ads.tiktok.com^
+||analytics-sg.tiktok.com^
+||ads-sg.tiktok.com^
+||e35058.a.akamaiedge.net^
 
 # ===== MIX =====
 # Yahoo
-|| ads.yahoo.com^
-|| global.adserver.yahoo.com^
-|| analytics.yahoo.com^
-|| ads.yap.yahoo.com^
+||ads.yahoo.com^
+||global.adserver.yahoo.com^
+||analytics.yahoo.com^
+||ads.yap.yahoo.com^
 
 # Yandex
-|| appmetrica.yandex.com^
-|| yandexadexchange.net^
-|| analytics.mobile.yandex.net^
+||appmetrica.yandex.com^
+||yandexadexchange.net^
+||analytics.mobile.yandex.net^
 
 # ===== OEN =====
 #   Xiaomi
-|| api.ad.xiaomi.com^
-|| app.chat.xiaomi.net^
-|| data.mistat.xiaomi.com^
-|| data.mistat.intl.xiaomi.com^
-|| data.mistat.india.xiaomi.com^
-|| data.mistat.rus.xiaomi.com^
-|| sdkconfig.ad.xiaomi.com^
-|| sdkconfig.ad.intl.xiaomi.com^
-|| globalapi.ad.xiaomi.com^
-|| cdn.ad.xiaomi.com^
-|| tracking.miui.com^
-|| tracking.intl.miui.com^
-|| tracking.india.miui.com^
-|| tracking.rus.miui.com^
+||api.ad.xiaomi.com^
+||app.chat.xiaomi.net^
+||data.mistat.xiaomi.com^
+||data.mistat.intl.xiaomi.com^
+||data.mistat.india.xiaomi.com^
+||data.mistat.rus.xiaomi.com^
+||sdkconfig.ad.xiaomi.com^
+||sdkconfig.ad.intl.xiaomi.com^
+||globalapi.ad.xiaomi.com^
+||cdn.ad.xiaomi.com^
+||tracking.miui.com^
+||tracking.intl.miui.com^
+||tracking.india.miui.com^
+||tracking.rus.miui.com^
 
 # Huawei
-|| metrics.data.hicloud.com^
-|| metrics1.data.hicloud.com^
-|| metrics2.data.hicloud.com^
-|| metrics3.data.hicloud.com^
-|| metrics4.data.hicloud.com^
-|| metrics5.data.hicloud.com^ 
-|| logservice.hicloud.com^
-|| logservice1.hicloud.com^
-|| metrics-dra.dt.hicloud.com^
-|| logbak.hicloud.com^
+||metrics.data.hicloud.com^
+||metrics1.data.hicloud.com^
+||metrics2.data.hicloud.com^
+||metrics3.data.hicloud.com^
+||metrics4.data.hicloud.com^
+||metrics5.data.hicloud.com^ 
+||logservice.hicloud.com^
+||logservice1.hicloud.com^
+||metrics-dra.dt.hicloud.com^
+||logbak.hicloud.com^
 
 # OnePlus
-|| click.oneplus.cn^
-|| click.oneplus.com^
-|| open.oneplus.net^
+||click.oneplus.cn^
+||click.oneplus.com^
+||open.oneplus.net^
 
 # Samsung
-|| ad.samsungadhub.com^
-|| samsungadhub.com^
-|| samsungads.com^
-|| smetrics.samsung.com^
-|| nmetrics.samsung.com^
-|| samsung-com.112.2o7.net^
-|| business.samsungusa.com^
-|| analytics.samsungknox.com^
-|| analytics-api.samsunghealthcn.com^
-|| config.samsungads.com^
+||ad.samsungadhub.com^
+||samsungadhub.com^
+||samsungads.com^
+||smetrics.samsung.com^
+||nmetrics.samsung.com^
+||samsung-com.112.2o7.net^
+||business.samsungusa.com^
+||analytics.samsungknox.com^
+||analytics-api.samsunghealthcn.com^
+||config.samsungads.com^
 
 # Apple 
-|| metrics.apple.com^ 
-|| securemetrics.apple.com^ 
-|| supportmetrics.apple.com^ 
-|| metrics.icloud.com^ 
-|| metrics.mzstatic.com^
+||metrics.apple.com^ 
+||securemetrics.apple.com^ 
+||supportmetrics.apple.com^ 
+||metrics.icloud.com^ 
+||metrics.mzstatic.com^
 
 # OTHER TRACKERS
-|| dwggckttorq.com^
-|| hborq.com^
-|| imgur.com^
-|| imgur.map.fastly.net^
-|| pjagilteei.com^
-|| push-services.com^
-|| qynysggri.com^
-|| xrpikxtnmvcm.com^
-|| ygvqughn.com^
-|| gwggiroo.com^
-|| mkenativji.com^
-|| mpqgoircwb.com^
-|| notjdyincro.com^
-|| sharethis.com^
-|| wcnhhqqueu.com^
-|| mxijjrnhmhm.com^
+||dwggckttorq.com^
+||hborq.com^
+||imgur.com^
+||imgur.map.fastly.net^
+||pjagilteei.com^
+||push-services.com^
+||qynysggri.com^
+||xrpikxtnmvcm.com^
+||ygvqughn.com^
+||gwggiroo.com^
+||mkenativji.com^
+||mpqgoircwb.com^
+||notjdyincro.com^
+||sharethis.com^
+||wcnhhqqueu.com^
+||mxijjrnhmhm.com^
