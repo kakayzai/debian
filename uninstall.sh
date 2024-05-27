@@ -15,7 +15,7 @@ sudo apt purge asunder gmtp strawberry xfburn webcamoid -y
 sudo apt purge mc mcedit -y 
 sudo apt purge baobab advert-block-antix gparted -y
 sudo apt purge nomacs simple-scan featherpad hypnotix -y
-sudo apt purge luckybackup  -y
+sudo apt purge luckybackup -y
 
 #sudo apt purge imagemagick-* -y
 
@@ -28,7 +28,7 @@ sudo apt purge mlterm* -y
 sudo apt-get purge debian-reference-it -y
 
 # Remove XFCE Components
-sudo apt purge xfce4-clipman xfce4-notifyd xfce4-dict xfce4-power-manager xfce4-sensors-plugin -y
+sudo apt purge xfce4-clipman xfce4-notifyd xfce4-dict xfce4-power-manager xfce4-sensors-plugin xfce4-notes-y -y
 
 
 # Remove Games
