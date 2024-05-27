@@ -4,7 +4,7 @@
 ||adservice.google.com^ 
 ||pagead2.googleadservices.com^
 
-# Media.net^ 
+# Media Dot Net 
 ||static.media.net^ 
 ||media.net^ 
 ||adservice.media.net^
@@ -21,14 +21,13 @@
 
 # Fast Click
 ||fastclick.com^
-||global.map.fastly.net^
 ||prod.pinterest.global.map.fastly.net^
 
-# Doubleclick.net^
-||doubleclick.net^
-||ad.doubleclick.net^
+# Doubleclick.net
 ||static.doubleclick.net^
 ||m.doubleclick.net^
+||doubleclick.net^
+||ad.doubleclick.net^
 ||mediavisor.doubleclick.net^
 ||googleads.g.doubleclick.net^
 
@@ -176,8 +175,6 @@
 # OTHER TRACKERS
 ||dwggckttorq.com^
 ||hborq.com^
-||imgur.com^
-||imgur.map.fastly.net^
 ||pjagilteei.com^
 ||push-services.com^
 ||qynysggri.com^
@@ -190,3 +187,10 @@
 ||sharethis.com^
 ||wcnhhqqueu.com^
 ||mxijjrnhmhm.com^
+||.com^
+||dramaticreadings.com^
+||stylisheleg4nt.com^
+||wcqabraxkvl.com^
+||yshhfig.com^
+||cmildinxhqf.com^
+
