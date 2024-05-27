@@ -13,7 +13,8 @@ sudo apt purge lbreakout2 peg-e swell-foop -y
 sudo apt purge mx-viewer transmission-qt thunderbird -y
 sudo apt purge asunder gmtp strawberry xfburn webcamoid -y
 sudo apt purge mc mcedit -y 
-sudo apt purge baobab advert-block-antix -y
+sudo apt purge baobab advert-block-antix gparted -y
+sudo apt purge nomacs simple-scan featherpad hypnotix -y
 
 #sudo apt purge imagemagick-* -y
 
