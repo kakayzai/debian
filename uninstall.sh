@@ -18,6 +18,10 @@ sudo apt purge nomacs simple-scan featherpad hypnotix -y
 sudo apt purge luckybackup -y
 sudo apt purge cups -y
 sudo apt purge blueman -y
+sudo apt purge foliate qpdfview pdfarranger atril -y
+sudo apt purge timeshift -y
+sudo apt purge qdirstat -y
+
 
 #sudo apt purge imagemagick-* -y
 
