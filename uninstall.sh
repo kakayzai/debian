@@ -15,6 +15,7 @@ sudo apt purge asunder gmtp strawberry xfburn webcamoid -y
 sudo apt purge mc mcedit -y 
 sudo apt purge baobab advert-block-antix gparted -y
 sudo apt purge nomacs simple-scan featherpad hypnotix -y
+sudo apt purge luckybackup  -y
 
 #sudo apt purge imagemagick-* -y
 
