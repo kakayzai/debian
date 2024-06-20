@@ -31,6 +31,9 @@ sudo apt install xfce4-screenshooter -y
 sudo apt install xfce4-taskmanager -y
 sudo apt install xfce4-whiskermenu-plugin -y
 
+# Install Festival & Default Voice Package
+#sudo apt-get install festival festvox-kallpc16k
+
 
 # Browser Installation
 #sudo apt install firefox -y
